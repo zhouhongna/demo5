@@ -1,0 +1,27 @@
+/*
+* @Author: 周红娜
+* @Date:   2020-05-26 18:23:06
+* @Last Modified by:   周红娜
+* @Last Modified time: 2020-05-26 20:56:12
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+/*清除浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
